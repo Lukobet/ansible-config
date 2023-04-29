@@ -10,10 +10,3 @@
 -  hosts: webservers
 - name: Webserver assignment
   import_playbook: ../static-assignments/webservers.yml
-
----
-- hosts: all
-- import_playbook: ../static-assignments/common-del.yml
-
-- hosts: uat-webservers
-- import_playbook: ../static-assignments/uat-webservers.yml
