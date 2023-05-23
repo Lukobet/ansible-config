@@ -9,14 +9,16 @@ python3 -m pip install --upgrade pip
 python3 -m pip install PyMySQL
 python3 -m pip install mysql-connector-python
 python3 -m pip install psycopg2==2.7.5 --ignore-installed
+
 Installing JAVA
 ====================================
 
 sudo yum install java-11-openjdk-devel -y
-open the bash profile
+
+# open the bash profile
 vi .bash_profile
 
-paste the below in the bash profile
+# paste the below in the bash profile
 export JAVA_HOME=$(dirname 
 (readlink 
 (which javac))))) export PATH=$PATH:$JAVA_HOME/bin export CLASSPATH=.:$JAVA_HOME/jre/lib:$JAVA_HOME/lib:$JAVA_HOME/lib/tools.jar
