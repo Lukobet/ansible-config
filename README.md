@@ -123,7 +123,9 @@ sonar properties
 =================================== sonar.host.url=http://3.125.17.131:9000/sonar/ sonar.projectKey=php-todo #----- Default source code encoding sonar.sourceEncoding=UTF-8 sonar.php.exclusions=/vendor/ sonar.php.coverage.reportPaths=build/logs/clover.xml sonar.php.tests.reportPath=build/logs/junit.xml
 
 Jenkinsfile for PHP Todo Job
-===================================== pipeline { agent any
+===================================== 
+pipeline { 
+  agent any
 
 stages {
 
